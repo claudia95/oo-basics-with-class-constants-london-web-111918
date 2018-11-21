@@ -8,7 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    @@brand_count 
+    BRANDS = BRANDS.uniq()
     
   end
 
@@ -17,9 +17,9 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def self.brand_count
-    @@brand_count
-  end
+  #def self.brand_count
+   # @@brand_count
+  #end
   
   
   
