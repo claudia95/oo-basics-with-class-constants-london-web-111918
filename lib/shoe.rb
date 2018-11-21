@@ -9,9 +9,6 @@ class Shoe
     @brand = brand
     BRANDS << brand
     BRANDS.uniq!
-    #BRANDS.push(brand).uniq!
-    
-    
   end
 
   def cobble
