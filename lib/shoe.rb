@@ -8,7 +8,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    @@brand_count = @@brand_count + 1
+    @@brand_count 
     
   end
 
@@ -20,6 +20,8 @@ class Shoe
   def self.brand_count
     @@brand_count
   end
+  
+  
   
 end
 
