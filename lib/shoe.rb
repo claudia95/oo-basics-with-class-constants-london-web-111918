@@ -8,7 +8,9 @@ class Shoe
   def initialize(brand)
     @brand = brand
     BRANDS << brand
-    #BRANDS = BRANDS.uniq!
+    BRANDS.uniq!
+    #BRANDS.push(brand).uniq!
+    
     
   end
 
@@ -16,9 +18,6 @@ class Shoe
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
-  
-  
-  
   
 end
 
